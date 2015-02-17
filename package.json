@@ -1,0 +1,27 @@
+{
+  "name": "soundwave",
+  "version": "1.0.0",
+  "description": "A simple but efficient chat using Primus and Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/developerdizzle/soundwave.git"
+  },
+  "keywords": [
+    "chat",
+    "primus",
+    "redis"
+  ],
+  "author": "dzl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/developerdizzle/soundwave/issues"
+  },
+  "homepage": "https://github.com/developerdizzle/soundwave",
+  "dependencies": {
+    "primus": "^2.4.12"
+  }
+}
