@@ -14,7 +14,7 @@ function Soundwave(primus, options) {
 
     var soundwave = this;
 
-    // delivers message to sparks; returns number of sparks delivered to
+    // delivers message to spark
     soundwave.deliverCassette = function(cassette) {
         var recipient = cassette.recipient;
         
