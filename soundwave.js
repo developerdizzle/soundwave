@@ -1,6 +1,4 @@
 var fuse = require('fusing');
-var uuid = require('node-uuid');
-var cookie = require('cookie');
 
 function Soundwave(primus, options) {
     if (!(this instanceof Soundwave)) return new Soundwave(primus, options);
